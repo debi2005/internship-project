@@ -1,0 +1,53 @@
+
+header {
+    background-image: url('booked.jpeg');
+    text-align: center;
+    padding: 60px;
+    color: #181818;
+}
+.confirmation-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(109, 166, 216, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    margin: auto;
+    top:90px;
+}
+
+.confirmation-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.confirmation-container p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.booking-details {
+    margin-bottom: 20px;
+}
+
+.booking-details p {
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}

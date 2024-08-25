@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking</title>
+    <link rel="stylesheet" href="bookings.css">
+</head>
+<body>
+    <label>
+        <input type="checkbox">
+        <div class="toggle">
+            <span class="top_line common"></span>
+            <span class="middle_line common"></span>
+            <span class="bottom_line common"></span>
+        </div>
+            <div class="slide">
+        <h1>MENU</h1>
+        <ul class="nav-links">
+            <li><a href="login.html">Login</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discounts.html">Discounts & Offers</a></li>
+                <li><a href="transport.html">Transport</a></li>
+                <li><a href="hotels.html">Hotels</a></li>
+                <li><a href="places.html">Places</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Info</a></li>
+                <li><a href="bookings.html">Bookings</a></li>
+        </ul>
+    </div>
+    </label>
+    <div class="booking-container">
+        <form class="booking-form" action="/book" method="POST">
+            <h2>Book Your Trip</h2>
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" name="destination" required>
+            
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin" required>
+            
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout" required>
+            
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" max="10" required>
+            
+            <button type="submit"> <li><a href="booknow.html">Book Now</a></li>
+
+            </button>
+        </form>
+    </div>
+</body>
+</html>
